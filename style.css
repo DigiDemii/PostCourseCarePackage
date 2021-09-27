@@ -1,0 +1,214 @@
+/* fonts */
+
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("gilroyextrabold.otf");
+}
+
+@font-face {
+  font-family: "GilroyLight";
+  src: url("gilroylight.otf");
+}
+
+/* html elements */
+
+h1, h2, h3, h4 {
+  font-family: "GilroyExtraBold";
+}
+
+p, li, a {
+  font-family: "GilroyLight";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(245, 179, 47);
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  /* background-image: url("images/coding.jpg"); */
+  background-color: rgb(39, 78, 155);
+  background-size: cover;
+  min-height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.bannertext {
+  color: white;
+  font-size: 70px;
+  /* background-color: rgb(0,0,0,0.6); */
+}
+
+/* options section 1 */
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optionstext {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(0,0,0,0.6);
+  margin: 15px 0px 15px 0px;
+}
+
+.optionbackground {
+  background-color: rgb(0, 0, 0,0.7);
+}
+
+.optionslist {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0,0,0,0.6);
+}
+
+.option1 {
+  display: flex;
+  background-image: url("images/projects.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option2 {
+  display: flex;
+  background-image: url("images/networking.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option3 {
+  display: flex;
+  background-image: url("images/learning.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* options section 2 */
+
+.option4 {
+  display: flex;
+  background-image: url("images/projects2.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.option5 {
+  display: flex;
+  background-image: url("images/projects3.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.option6 {
+  display: flex;
+  background-image: url("images/projects4.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* options section 3 */
+
+.option7 {
+  display: flex;
+  background-image: url("images/portal.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.option8 {
+  display: flex;
+  background-image: url("images/linkedin.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.option9 {
+  display: flex;
+  background-image: url("images/github.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* options section 4 */
+
+.option10 {
+  display: flex;
+  background-image: url("images/course1.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option11 {
+  display: flex;
+  background-image: url("images/course2.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option12 {
+  display: flex;
+  background-image: url("images/course3.jpg");
+  background-size: cover;
+  width: 33%;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* other */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
