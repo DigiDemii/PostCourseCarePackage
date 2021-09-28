@@ -25,3 +25,4 @@ Next to do:
 - Set up media queries
 - Figure out why load speeds are slow for images / website despite images being compressed
 - Add a light / dark mode
+- Potentially add a sticky navbar
