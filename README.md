@@ -1,5 +1,7 @@
 # Post CodeNation Course Care Package
-A solo project for my apprenticeship at CodeNation. It is a page filled with helpful links to send to our students after their time on one of our courses. (Currently still a work in progress)
+A solo project for my apprenticeship at CodeNation. 
+It is a page filled with helpful links to send to our students after their time on one of our courses. 
+(Currently still a work in progress)
 
 Commit #1
 
