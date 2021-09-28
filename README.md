@@ -1,6 +1,6 @@
 # Post CodeNation Course Care Package
 A solo project for my apprenticeship at CodeNation. 
-It is a page filled with helpful links to send to our students after their time on one of our courses. 
+It is a page filled with helpful links to send to our students after their time on our Develop Level 2 course. 
 (Currently still a work in progress)
 
 ![long_white_and_orange](https://user-images.githubusercontent.com/80684537/135117116-c44ab7be-eb2e-49ff-9ac0-5795675be52a.png)
