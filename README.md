@@ -19,3 +19,9 @@ Commit #2 (28/09/21)
 - Added linear gradients
 - Added a navbar
 - Added a footer
+
+Next to do:
+
+- Set up media queries
+- Figure out why load speeds are slow for images / website despite images being compressed
+- Add a light / dark mode
