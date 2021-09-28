@@ -5,13 +5,13 @@ It is a page filled with helpful links to send to our students after their time 
 
 ![long_white_and_orange](https://user-images.githubusercontent.com/80684537/135117116-c44ab7be-eb2e-49ff-9ac0-5795675be52a.png)
 
-Commit #1
+Commit #1 (27/09/21)
 
 - Basic layout of the website
 - Starting to work out the content I wanted
 - Worked with brand colours / fonts
 
-Commit #2
+Commit #2 (28/09/21)
 
 - Padded out the content
 - Added jumplinks
