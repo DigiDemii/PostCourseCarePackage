@@ -20,6 +20,14 @@ Commit #2 (28/09/21)
 - Added a navbar
 - Added a footer
 
+Commit #3 (02/11/21)
+
+- Removed all <br> tags
+- Added <header> and <article> tags
+- Tidied up both HTML and CSS code
+- Added a "Applying for Jobs & Getting Interviews" section
+- Added more projects
+
 Next to do:
 
 - Set up media queries
