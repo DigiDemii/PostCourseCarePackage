@@ -24,6 +24,10 @@ h1, h2, h3, h4 {
   font-family: "GilroyExtraBold";
 }
 
+h1 {
+  font-size: 40px;
+}
+
 p, li, a {
   font-family: "GilroyLight";
 }
@@ -41,10 +45,6 @@ a:hover {
   color: rgb(245, 179, 47);
 }
 
-/* li {
-  list-style-image: url("images/littlelogo.png");
-} */
-
 /* logo */
 
 #logo {
@@ -60,8 +60,6 @@ a:hover {
 /* nav */
 
 nav {
-  /* position: fixed;
-  z-index: 30; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -69,6 +67,7 @@ nav {
     135deg, rgb(68, 68, 68) 0%, rgb(205, 204, 204) 100%);
   width: 100vw;
   height: 40px;
+  font-size: 20px;
 }
 
 /* banner */
@@ -96,178 +95,138 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+/* This is for each of the 3 boxes */
 
 .optionstext {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 37px;
   background-color: rgb(20, 20, 20,0.7);
   margin: 15px 0px 15px 0px;
   width: 100%;
 }
+/* This is for the headings of each "option" */
 
 .optionslist {
+  display: flex;
+  justify-content: center;
   color: white;
   background: linear-gradient(
     180deg, rgb(20, 20, 20, 0.7) 0%, rgb(205, 204, 204, 0.5) 100%);
   width: 100%;
   height: 100%;
-  padding: 15px 10px 5px 10px;
+}
+/* This is for the content within each option */
+
+.optionmain {
+  display: flex;
+  width: 33%;
+  min-height: 300px;
+  flex-direction: column;
+  font-size: 25px;
+}
+/* The code for each option section */
+
+.optionslist ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.optionslist ul li {
+  margin: 5px 0px 20px 0px;
+  font-weight: 700;
 }
 
 .optionslist a {
-  margin: 0px 5px 0px 5px;
+  margin: 0px 0px 0px 5px;
 }
 
+/* options section 1 */
+
 .option1 {
-  display: flex;
   background-image: url("images/projects.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 .option2 {
-  display: flex;
   background-image: url("images/networking.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 .option3 {
-  display: flex;
   background-image: url("images/learning.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 /* options section 2 */
 
 .option4 {
-  display: flex;
   background-image: url("images/projects2.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
 }
 
 .option5 {
-  display: flex;
   background-image: url("images/projects3.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
 }
 
 .option6 {
-  display: flex;
   background-image: url("images/projects4.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
 }
 
 /* options section 3 */
 
 .option7 {
-  display: flex;
   background-image: url("images/portal.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 .option8 {
-  display: flex;
   background-image: url("images/linkedin.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 .option9 {
-  display: flex;
   background-image: url("images/github.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
 }
 
 /* options section 4 */
 
 .option10 {
-  display: flex;
   background-image: url("images/course1.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
 }
 
 .option11 {
-  display: flex;
   background-image: url("images/course2.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
 }
 
 .option12 {
-  display: flex;
   background-image: url("images/course3.jpg");
   background-size: cover;
-  width: 33%;
-  min-height: 300px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  font-size: 15px;
+}
+
+/* options section 5 */
+
+.option13 {
+  background-image: url("images/codenation1.jpg");
+  background-size: cover;
+}
+
+.option14 {
+  background-image: url("images/codenation8.jpg");
+  background-size: cover;
+}
+
+.option15 {
+  background-image: url("images/codenation3.jpg");
+  background-size: cover;
 }
 
 /* footer */
@@ -285,15 +244,11 @@ footer {
 
 /* other */
 
-.headertext {
-  text-align: center;
-}
-
 .center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
   margin: 0px 20px 0px 20px;
 }
 
