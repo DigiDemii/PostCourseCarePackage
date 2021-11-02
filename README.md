@@ -22,7 +22,7 @@ Commit #2 (28/09/21)
 
 Commit #3 (02/11/21)
 
-- Removed all <br> tags
+- Removed all break tags
 - Added <header> and <article> tags
 - Tidied up both HTML and CSS code
 - Added a "Applying for Jobs & Getting Interviews" section
