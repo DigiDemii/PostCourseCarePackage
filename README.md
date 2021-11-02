@@ -25,7 +25,7 @@ Commit #3 (02/11/21)
 - Removed all break tags
 - Added header and article tags
 - Tidied up both HTML and CSS code
-- Added a "Applying for Jobs & Getting Interviews" section
+- Added an "Applying for Jobs & Getting Interviews" section
 - Added more projects
 
 Next to do:
