@@ -28,9 +28,14 @@ Commit #3 (02/11/21)
 - Added an "Applying for Jobs & Getting Interviews" section
 - Added more projects
 
+Commit #4 (03/11/21)
+
+- Added media queries
+- Re-designed web page to suit mobile
+- Added social media icons to footer
+- Added "back to top" button to footer
+
 Next to do:
 
-- Set up media queries
-- Figure out why load speeds are slow for images / website despite images being compressed
 - Add a light / dark mode
 - Potentially add a sticky navbar
