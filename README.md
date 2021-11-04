@@ -35,7 +35,10 @@ Commit #4 (03/11/21)
 - Added social media icons to footer
 - Added "back to top" button to footer
 
-Next to do:
+Final Commit (04/11/21)
 
-- Add a light / dark mode
-- Potentially add a sticky navbar
+- Added light / dark mode
+- Added social media icons to top of page
+- Changed layout of the top of the web page to make it tidier
+- Changed the colour of the lists within "options" to yellow to make it easier to read
+- Changed links within "options" to be centered as it reads better
