@@ -132,7 +132,7 @@ nav {
   align-items: center;
   background: linear-gradient(
     135deg, var(--cngrey) 0%, var(--cnlightgrey) 100%);
-  width: 100vw;
+  width: 100%;
   height: 45px;
   font-size: 20px;
 }
